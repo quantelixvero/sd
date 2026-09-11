@@ -1,14 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <defs>
-    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2563EB" />
-      <stop offset="100%" stop-color="#06B6D4" />
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" rx="112" fill="#0F172A" />
-  <!-- 'H' shaped Data/Building Icon -->
-  <rect x="120" y="120" width="72" height="272" rx="20" fill="url(#favGrad)" />
-  <rect x="320" y="120" width="72" height="272" rx="20" fill="url(#favGrad)" />
-  <rect x="192" y="224" width="128" height="64" rx="16" fill="#06B6D4" />
-  <circle cx="256" cy="256" r="18" fill="#FFFFFF" />
+  <rect width="512" height="512" rx="96" fill="#090D16"/>
+  
+  <!-- Ultra Bright Cap -->
+  <polygon points="256,60 450,160 256,260 62,160" fill="#FFD600"/>
+  <circle cx="256" cy="160" r="36" fill="#090D16"/>
+  
+  <!-- High Contrast Data Bars -->
+  <rect x="80" y="290" width="352" height="48" rx="24" fill="#00F0FF"/>
+  <rect x="80" y="358" width="352" height="48" rx="24" fill="#FF007A"/>
+  <rect x="80" y="426" width="352" height="48" rx="24" fill="#00FF87"/>
 </svg>
